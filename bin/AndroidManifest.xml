@@ -1,0 +1,80 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.calpoly.polyschedule"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ConfigureActivity"
+            android:label="@string/configure_screen_title"
+            android:screenOrientation="portrait">
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <action
+                    android:name="my.package.ACTIVITY_NAME" />
+        </activity>
+        <activity
+            android:name=".HelpScreen"
+            android:label="@string/title_help_screen"
+            android:screenOrientation="portrait">
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <action
+                    android:name="my.package.ACTIVITY_NAME" />
+        </activity>
+        <activity 
+            android:name=".CoursePrefixList"
+            android:label="@string/course_prefix_title"
+            android:screenOrientation="portrait" >
+                <category 
+                    android:name="android.intent.action.PREFIX" />
+                <action
+                    android:name="my.package.PREFIX" />
+        </activity>
+        <activity 
+            android:name=".BuildingList"
+            android:label="@string/building_list_title"
+            android:screenOrientation="portrait" >
+                <category 
+                    android:name="android.intent.action.PREFIX" />
+                <action
+                    android:name="my.package.PREFIX" />
+        </activity>
+        <activity 
+            android:name=".EndTimeList"
+            android:label="@string/end_times_title"
+            android:screenOrientation="portrait" >
+                <category 
+                    android:name="android.intent.action.PREFIX" />
+                <action
+                    android:name="my.package.PREFIX" />
+        </activity>
+        <activity 
+            android:name=".StartTimeList"
+            android:label="@string/start_times_title"
+            android:screenOrientation="portrait" >
+                <category 
+                    android:name="android.intent.action.PREFIX" />
+                <action
+                    android:name="my.package.PREFIX" />
+        </activity>
+    </application>
+
+</manifest>

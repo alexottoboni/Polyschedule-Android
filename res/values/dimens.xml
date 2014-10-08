@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ButtonPadding">40dp</dimen>
+    <dimen name="courseTopPadding">10dp</dimen>
+    <dimen name="title_size">25dp</dimen>
+    <dimen name="button_width_max">150dp</dimen>
+    <dimen name="alert_title">20dp</dimen>
+    <dimen name="alert_text">14dp</dimen>
+</resources>
